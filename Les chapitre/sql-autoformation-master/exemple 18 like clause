@@ -1,4 +1,0 @@
-USE operators;
-
-SELECT * FROM customers
-WHERE SALARY LIKE '200%';
