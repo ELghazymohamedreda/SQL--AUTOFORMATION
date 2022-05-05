@@ -1,0 +1,19 @@
+CREATE TABLE aliment (
+
+id INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+
+nom VARCHAR(100) NOT NULL,
+
+marque VARCHAR(100),
+
+sucre FLOAT,
+
+calories INTEGER NOT NULL,
+
+graisses FLOAT,
+
+proteines FLOAT,
+
+bio BOOLEAN DEFAULT false
+
+);
