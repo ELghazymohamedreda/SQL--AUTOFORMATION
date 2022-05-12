@@ -1,5 +1,19 @@
-INSERT INTO `utilisateur` (`nom`, `prenom`, `email`)
+CREATE TABLE aliment (
 
-VALUES
+id INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
 
-('Durantay', 'Quentin', 'quentin@gmail.com');
+nom VARCHAR(100) NOT NULL,
+
+marque VARCHAR(100),
+
+sucre FLOAT,
+
+calories INTEGER NOT NULL,
+
+graisses FLOAT,
+
+proteines FLOAT,
+
+bio BOOLEAN DEFAULT false
+
+);

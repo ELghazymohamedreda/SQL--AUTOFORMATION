@@ -1,1 +1,0 @@
-DELETE FROM `utilisateur` WHERE `id` = '2';
